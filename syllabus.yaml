@@ -29,18 +29,19 @@ learning_outcomes:
 learning_areas:
     - type: Critical thinking
       outcomes:
-        - Compare sequential and recursive formulation of dynamic optimization problems.
-        - Evaluate the limitations of Markov processes.
+        - Evaluate and compare different computing tools and methods.
     - type: Quantitative reasoning
       outcomes:
         - Use Markov processes for forecasting.
     - type: Technology skills
       outcomes:
-        - Install and use basic libraries in the Julia language.
-        - "Use key programming tools in Julia: functions, loops."
+        - Write short programs in Python and Stata.
+        - Install and use packages in Python and Stata.
+        - "Use key programming tools in Python and Stata: functions, loops."
     - type: Interpersonal communication skills
       outcomes:
-        - Convey difficult concepts verbally.
+        - Convey technical concepts verbally.
+        - Collaborate with others on technical tasks.
     - type: Management knowledge and skills
       outcomes:
         - Create software with many components.
@@ -51,7 +52,8 @@ learning_areas:
         - Work together with students of different backgrounds.
     - type: Ethics and social responsibility
       outcomes:
-        - ""
+        - Understand ethical and legal constraints of acquiring data.
+        - Apply good practices of data protection.
 readings:
     required:
         - "Paarsch and Golyaev, 2016. A Gentle Introduction to Effective Computing in Quantitative Research: What Every Research Assistant Should Know. MIT Press. (PG henceforth)"
