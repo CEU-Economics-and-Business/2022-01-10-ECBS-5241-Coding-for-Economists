@@ -12,8 +12,9 @@ instructors:
 credits:
     us: 2
     ects: 4
-module:  
-term: Fall
+module: Analytical Foundations Module
+drop: As required in the MA in Economics regulations 
+term: Fall 2020-2021
 level: 
     - Master's
 prerequisites:
