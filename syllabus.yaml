@@ -32,7 +32,7 @@ learning_areas:
         - Evaluate and compare different computing tools and methods.
     - type: Quantitative reasoning
       outcomes:
-        - Use Markov processes for forecasting.
+        - Explore and analyze a large number of observations from potentially many different sources. 
     - type: Technology skills
       outcomes:
         - Write short programs in Python and Stata.
