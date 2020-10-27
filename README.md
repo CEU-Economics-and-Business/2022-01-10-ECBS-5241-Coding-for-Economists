@@ -1,1 +1,1 @@
-# ECBS6001-Advanced-Macroeconomics
+# ECBS5241-Coding-for-Economists
