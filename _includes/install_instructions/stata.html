@@ -1,0 +1,79 @@
+<div id="stata"> {% comment %} Start of 'Stata' section. {% endcomment %}
+  <h3>Stata</h3>
+
+<p>This lesson uses the statistical package <a href="https://www.stata.com/products/">Stata</a><a href="license.html">™</a>. It has been tested on Stata 16.1 MultiProcessor, but it should work on most recent versions.</p> 
+<p>If you do not have a Stata license, please let your instructor know so that they can request a short-term training license for free.</p>
+<p>If you are newly installing Stata on your computer, follow these instructions.</p>
+  <div>
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li role="presentation" class="active"><a data-os="windows" href="#stata-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
+      <li role="presentation"><a data-os="macos" href="#stata-macos" aria-controls="MacOS" role="tab" data-toggle="tab">MacOS</a></li>
+      <li role="presentation"><a data-os="linux" href="#stata-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane active" id="stata-windows">
+        <ol>
+          <li>Go to the link given by your instructor</li>
+          <li>Download and launch the installer: SetupStata16.exe </li>
+          <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
+          <li>Enter the serial number provided and press enter</li>
+          <li>Enter the code and press enter</li>
+          <li>Enter the authorization and press enter</li>
+          <li>It should return “Good.  The serial number, code, and authorization make sense. Shall we continue?” Type Y and press enter.</li>
+          <li>When it asks for the first line, it should say “CEU”</li>
+          <li>When it asks for the second line, it should say “ECBS 5241”</li>
+          <li>It will ask for confirmation. Type “Y” and press enter.</li>
+        </ol>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="stata-macos">
+      <ol>
+        <li>Go to the link given by your instructor</li>
+        <li>Download and launch the installer: Stata16.dmg </li>
+        <li>Once the installation is done, start Stata from the Start Menu. The first time you do this, you will have to activate your licence.</li>
+        <li>Enter the serial number provided and press enter</li>
+        <li>Enter the code and press enter</li>
+        <li>Enter the authorization and press enter</li>
+        <li>It should return “Good.  The serial number, code, and authorization make sense. Shall we continue?” Type Y and press enter.</li>
+        <li>When it asks for the first line, it should say “CEU”</li>
+        <li>When it asks for the second line, it should say “ECBS 5241”</li>
+        <li>It will ask for confirmation. Type “Y” and press enter.</li>
+      </ol>
+      </article>
+      <article role="tabpanel" class="tab-pane active" id="stata-linux">
+      <ol>
+        <li>Go to the link given by your instructor</li>
+        <li>Download <code class="highlighter-rouge">Stata16Linux64.tar.gz</code>.</li>
+        <li>Open a terminal and navigate to the directory where your downloaded file is located (e.g. <code class="highlighter-rouge">cd ~/Downloads/</code>)</li>
+        <li>Get superuser rights (<code class="highlighter-rouge">sudo su</code>)</li>
+        <li>Create a new directory (e.g. <code class="highlighter-rouge">mkdir stata_install</code>)</li>
+        <li>Move the downloaded file to this new directory (<code class="highlighter-rouge">mv Stata16Linux64.tar.gz. stata_install/</code>)</li>
+        <li>Enter the directory (<code class="highlighter-rouge">cd stata_install</code>)</li>
+        <li>Extract the installation files using <code class="highlighter-rouge">tar xzf Stata16Linux64.tar.gz</code></li>
+        <li>Create a directory for your stata installation (<code class="highlighter-rouge">mkdir /usr/local/stata16</code>)</li>
+        <li>Navigate to the stata directory (<code class="highlighter-rouge">cd /usr/local/stata16</code>)</li>
+        <li>Start the installation by executing the extracted install file (e.g. <code class="highlighter-rouge">/home/username/Downloads/stata_install/install</code>)</li>
+        <li>Whenever the installer asks if you want to proceed type “y” and press enter</li>
+        <li>Once the installation is done, type <code class="highlighter-rouge">./stinit</code> to activate your licence</li>
+        <li>Whenever it asks you if you want to continue, type “Y” and press enter</li>
+        <li>Enter the serial number provided and press enter</li>
+        <li>Enter the code and press enter</li>
+        <li>Enter the authorization and press enter</li>
+        <li>It should return “Good.  The serial number, code, and authorization make sense. Shall we continue?” Type Y and press enter.</li>
+        <li>When it asks for the first line, it should say “CEU”</li>
+        <li>When it asks for the second line, it should say “ECBS 5241”</li>
+        <li>It will ask for confirmation. Type “Y” and press enter.</li>
+        <li>
+          <p>Try to start stata by <code class="highlighter-rouge">./xstata</code>. If it gives you the following error message (<code class="highlighter-rouge">./stata: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory</code>), continue with the steps below:</p>
+        </li>
+        <li>Issue the following commands one by one in your terminal window:
+          <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install zlib1g-dev
+      wget http://mirrors.kernel.org/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.54-1ubuntu1_amd64.deb
+      dpkg -i libpng12-0_1.2.54-1ubuntu1_amd64.deb
+      </code></pre></div>    </div>
+        </li>
+      </ol>
+      </article>
+    </div>
+  </div>
+</div> {% comment %} End of 'editor' section. {% endcomment %}
