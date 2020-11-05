@@ -1,13 +1,13 @@
 Session,Date,DoW,New,Start,End,Instructor,Topic,Link
-1,11/10,TUE,1,11:00,12:40,Fleck,Introduction to the command line,https://datacarpentry.org/shell-economics/01-introduction/index.html
-2,11/10,TUE,0,15:30,17:10,Fleck,Version control with Git,https://dlstrong.github.io/git-novice/02-setup/index.html
-3,11/12,THU,1,9:00,10:40,Koren,Python fundamentals.,https://swcarpentry.github.io/python-novice-gapminder/
-4,11/12,THU,0,11:00,12:40,Koren,Breaking up code into functions.,https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html
-5,11/17,TUE,1,11:00,12:40,Fleck,Data Wrangling in Stata,https://datacarpentry.org/stata-economics/01-explore-data/index.html
-6,11/17,TUE,0,15:30,17:10,Fleck,Data Wrangling in Stata,https://datacarpentry.org/stata-economics/03-transform-data/index.html
-7,11/19,THU,1,9:00,10:40,Koren,Repeating tasks with for loops.,https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/index.html
-8,11/19,THU,0,11:00,12:40,Koren,Storing your data in lists and dictionaries.,
-9,11/24,TUE,1,11:00,12:40,Fleck,Coding in Stata,https://datacarpentry.org/stata-economics/05-programming/index.html
-10,11/24,TUE,0,15:30,17:10,Fleck,Saving your .do files with Git,I will add a lesson on this.
-11,11/26,THU,1,9:00,10:40,Koren,Reading and writing files in different formats,
-12,11/26,THU,0,11:00,12:40,Koren,Finding and installing user-written Stata packages,
+1,11/10,Tuesday,1,11:00,12:40,Fleck,Introduction to the command line,https://datacarpentry.org/shell-economics/01-introduction/index.html
+2,11/10,Tuesday,0,15:30,17:10,Fleck,Version control with Git,https://dlstrong.github.io/git-novice/02-setup/index.html
+3,11/12,Thursday,1,9:00,10:40,Koren,Python fundamentals.,https://swcarpentry.github.io/python-novice-gapminder/
+4,11/12,Thursday,0,11:00,12:40,Koren,Breaking up code into functions.,https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html
+5,11/17,Tuesday,1,11:00,12:40,Koren,Repeating tasks with for loops.,https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/index.html
+6,11/17,Tuesday,0,15:30,17:10,Koren,Storing your data in lists and dictionaries.,
+7,11/19,Thursday,1,9:00,10:40,Fleck,Data Wrangling in Stata,https://datacarpentry.org/stata-economics/01-explore-data/index.html
+8,11/19,Thursday,0,11:00,12:40,Fleck,Data Wrangling in Stata,https://datacarpentry.org/stata-economics/03-transform-data/index.html
+9,11/24,Tuesday,1,11:00,12:40,Fleck,Coding in Stata,https://datacarpentry.org/stata-economics/05-programming/index.html
+10,11/24,Tuesday,0,15:30,17:10,Fleck,Saving your .do files with Git,I will add a lesson on this.
+11,11/26,Thursday,1,9:00,10:40,Koren,Reading and writing files in different formats,
+12,11/26,Thursday,0,11:00,12:40,Koren,Finding and installing user-written Stata packages,
