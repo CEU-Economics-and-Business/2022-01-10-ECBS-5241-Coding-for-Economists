@@ -1,6 +1,7 @@
 <div class="row">
   {% for session in site.data.schedule %}
-    {% if not session.Date=="" %}
+    {% if session.Date=="" %}
+    {% else %}
         {% assign date = session.Date %}
         </table>
       </div>
@@ -8,8 +9,8 @@
           <h3>{{ session.Date }} {{ session.DoW}} </h3>
           <table class="table table-striped">
     {% endif %}
-    {% if not session.Start=="" %}
-        {% assign time = session.Start %}
+    {% if session.Start=="" %}
+    {% else %}
           </td> </tr>
           <tr> <td>{{ session.Start }}</td> <td>
     {% endif %}
