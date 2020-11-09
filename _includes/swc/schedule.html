@@ -6,6 +6,7 @@
           <h3>{{ session.Date }} {{ session.DoW}} </h3>
           <table class="table table-striped">
     {% endif %}
+    {% if session.Start=="" %}
     {% else %}
           </td> </tr>
           <tr> <td>{{ session.Start }}</td> <td>
