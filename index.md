@@ -40,31 +40,6 @@ For a workshop please delete the following block until the next dashed-line
 8< ============================= until here ==================
 {% endcomment %}
 
-
-{% comment %}
-Check DC curriculum
-{% endcomment %}
-
-{% if site.carpentry == "dc" %}
-{% unless site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
-<div class="alert alert-warning">
-It looks like you are setting up a website for a Data Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>dc-ecology</code>, <code>dc-genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
-</div>
-{% endunless %}
-{% endif %}
-
-{% comment %}
-Check SWC curriculum
-{% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% unless site.curriculum == "swc-inflammation" or site.curriculum == "swc-gapminder" %}
-<div class="alert alert-warning">
-It looks like you are setting up a website for a Software Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>swc-inflammation</code>, or <code>swc-gapminder</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
-</div>
-{% endunless %}
-{% endif %}
-
 {% comment %}
 EVENTBRITE
 
@@ -85,6 +60,7 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+{% include gdpr.html %}
 
 <h2 id="general">General Information</h2>
 
