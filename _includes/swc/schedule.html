@@ -7,13 +7,11 @@
           <table class="table table-striped">
     {% endif %}
     {% if session.Start=="" %}
+           <tr> <td></td> <td>
     {% else %}
           <tr> <td>{{ session.Start }}</td> <td>
     {% endif %}
-        <p><a href="{{ session.Link }}">{{ session.Topic }}</a></p> 
-    {% if session.end_time=="1" %}
-      </td></tr>
-    {% endif %}
+        <p><a href="{{ session.Link }}">{{ session.Topic }}</a></p> </td></tr>
     {% if session.end_date=="1" %}
   </table></div>
     {% endif %}
