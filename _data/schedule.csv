@@ -5,8 +5,8 @@ Date,DoW,end_date,end_time,Start,End,Instructor,Topic,Link
 ,,,,15:30,17:10,Fleck,Setting up Git (Extra: register on GitHub!),https://dlstrong.github.io/git-novice/02-setup/index.html
 ,,,,,,,Creating a Repository,https://dlstrong.github.io/git-novice/03-create/index.html
 ,,,,,,,Tracking Changes,https://dlstrong.github.io/git-novice/04-changes/index.html
-,,,,,,,Labeling Things and Undoing Things,https://dlstrong.github.io/git-novice/05-label-and-undo/index.html
-,,1,1,,,,Pushing and Pulling to and from GitHub,https://dlstrong.github.io/git-novice/06-push-pull/index.html
+,,,,,,,Pushing and Pulling to and from GitHub,https://dlstrong.github.io/git-novice/06-push-pull/index.html
+,,1,1,,,,Sharing One Repository,https://dlstrong.github.io/git-novice/10-collab/index.html
 11/12,Thursday,,,9:00,10:40,Koren,Install Python via miniconda and set up jupyter lab.,https://swcarpentry.github.io/python-novice-gapminder/
 ,,,1,,,,Python fundamentals.,https://swcarpentry.github.io/python-novice-gapminder/
 ,,1,1,11:00,12:40,Koren,Breaking up code into functions.,https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html
