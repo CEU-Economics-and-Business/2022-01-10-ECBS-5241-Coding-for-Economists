@@ -10,8 +10,9 @@ Date,DoW,end_date,end_time,Start,End,Instructor,Topic,Link
 11/12,Thursday,,,9:00,10:40,Koren,Install Python via miniconda and set up jupyter lab.,https://swcarpentry.github.io/python-novice-gapminder/
 ,,,1,,,,Python fundamentals.,https://swcarpentry.github.io/python-novice-gapminder/
 ,,1,1,11:00,12:40,Koren,Breaking up code into functions.,https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html
-11/17,Tuesday,,1,11:00,12:40,Koren,Repeating tasks with for loops.,https://datacarpentry.org/python-ecology-lesson/06-loops-and-functions/index.html
-,,1,1,15:30,17:10,Koren,Storing your data in lists and dictionaries.,https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html
+11/17,Tuesday,,,11:00,12:40,Koren,Using code written by others.,https://swcarpentry.github.io/python-novice-gapminder/06-libraries/index.html
+,,,1,,,,Storing your data in lists and dictionaries.,https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html
+,,1,1,15:30,17:10,Koren,Repeat Tasks with Loops,https://swcarpentry.github.io/python-novice-gapminder/12-for-loops/index.html
 11/19,Thursday,,,9:00,10:40,Fleck,Read and Explore Data (+Setup),https://datacarpentry.org/stata-economics/01-explore-data/index.html
 ,,,1,,,,Data Formats and Data Quality,https://datacarpentry.org/stata-economics/02-data-quality/index.html
 ,,,,11:00,12:40,Fleck,Transform Data,https://datacarpentry.org/stata-economics/03-transform-data/index.html
