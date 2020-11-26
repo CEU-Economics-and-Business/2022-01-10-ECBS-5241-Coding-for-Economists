@@ -10,7 +10,7 @@ Feel free to consult class notes, Google, StackOverflow, each other, but **type 
 
 > The deadline is 11pm (Vienna time) on Friday, **January 8**.
 
-Show all your work in a GitHub repository. (Please start a new one.) Submit the link to your repository to complete the assignment.
+Show all your work in a public GitHub repository. (Please start a new one.) Submit the link to your repository to complete the assignment. (If your data is too large to add to GitHub or you want to keep it private, please give very specific instructions about how we can get it.)
 
 ## Learning Outcomes to Demonstrate
 1. Understand folder structure. Perform operations on files in different folders.
@@ -32,7 +32,7 @@ Show all your work in a GitHub repository. (Please start a new one.) Submit the 
 17. Name files, functions and variables appropriately.
 18. Write helpful comments and commit messages. Demonstrate both.
 19. Push a repository to GitHub.
-20. Explain how to reproduce your work with short instructions or a sel-documenting master script.
+20. Explain how to reproduce your work with short instructions or a self-documenting master script.
 
 ## Grading
 ### Class Participation
