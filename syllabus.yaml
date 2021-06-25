@@ -4,17 +4,17 @@ instructors:
     -   name: Miklós Koren
         bio: Miklós Koren is professor of economics at CEU, senior research fellow at the Institute of Economics, and research fellow of the Centre for Economic Policy Research. His research focuses on how talent and technology jointly determine business success. Professor Koren has more than two decades of experience with data and coding. He is a certified Carpentries Instructor.
         email: korenm@ceu.edu    
-        office: N13 213 (Budapest)
-    -   name: Márton Fleck
-        bio: Márton Fleck is a PhD candidate in economics at CEU, and member of the CEU MicroData research group where he works with large administrative datasets using Python and Stata. His research interests are applied microeconomics, political economy, and industrial organization.
-        email: fleck_marton@phd.ceu.edu     
-        office: N13 223 (Budapest)
+        office: QS B510 (Vienna)
+    -   name: Ulrich Wohak
+        bio: Ulrich Wohak is a PhD student in Economics at the Vienna University of Economics and Business. He has experience as an economist at UK Competition and Markets Authority (CMA) and the Austrian competition authority (BWB) , MSc Specialized Economic Analysis (Competition) at Barcelona Graduate School of Economics (BGSE), MA Economics and Management at University of Aberdeen (UoA), worked and studied abroad for 7 years, continuous voluntary work as a paramedic, experienced with Stata, R, Python (quant) and ArcGIS.
+        email: ulrich.wohak@wu.ac.at     
+        office: TBA
 credits:
     us: 2
     ects: 4
 module: Analytical Foundations Module
 drop: As required in the MA in Economics regulations 
-term: Fall 2020-2021
+term: Fall 2021-2022
 level: 
     - Master's
 prerequisites:
