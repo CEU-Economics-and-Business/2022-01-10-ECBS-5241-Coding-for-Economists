@@ -122,3 +122,5 @@ exclude:
 
 # Turn on built-in syntax highlighting.
 highlighter: rouge
+
+theme: jekyll-theme-minimal
