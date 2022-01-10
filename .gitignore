@@ -16,3 +16,4 @@ vendor/
 Gemfile.lock
 .*history
 _data/secrets/
+volume/
