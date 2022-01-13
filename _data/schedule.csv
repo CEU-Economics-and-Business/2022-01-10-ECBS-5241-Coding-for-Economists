@@ -1,25 +1,23 @@
 Date,DoW,end_date,end_time,Start,End,Instructor,Topic,Link
 1/10,Monday,,,15:40,17:20,Koren,Pre-workshop survey,https://carpentries.typeform.com/to/wi32rS?slug=2022-01-10-ECBS-5241-Coding-for-Economists
-,,,,,,,Introduction to the command line,https://datacarpentry.org/shell-economics/01-introduction/index.html
-,,1,1,,,,Navigating files and directories,https://datacarpentry.org/shell-economics/02-the-filesystem/index.html
-1/11,Tuesday,,,15:40,17:20,Koren,Setting up Git (Extra: register on GitHub!),https://dlstrong.github.io/git-novice/02-setup/index.html
+,,1,1,,,,Introduction to the command line,https://datacarpentry.org/shell-economics/01-introduction/index.html
+1/11,Tuesday,1,1,15:40,17:20,Koren,Navigating files and directories,https://datacarpentry.org/shell-economics/02-the-filesystem/index.html
+1/12,Wednesday,,,15:40,17:20,Koren,Setting up Git (Extra: register on GitHub!),https://dlstrong.github.io/git-novice/02-setup/index.html
 ,,,,,,,Creating a Repository,https://dlstrong.github.io/git-novice/03-create/index.html
-,,,,,,,Tracking Changes,https://dlstrong.github.io/git-novice/04-changes/index.html
-,,,,,,,Pushing and Pulling to and from GitHub,https://dlstrong.github.io/git-novice/06-push-pull/index.html
+,,1,1,,,,Tracking Changes,https://dlstrong.github.io/git-novice/04-changes/index.html
+1/13,Thursday,,,15:40,17:20,Koren,Pushing and Pulling to and from GitHub,https://dlstrong.github.io/git-novice/06-push-pull/index.html
 ,,1,1,,,,Sharing One Repository,https://dlstrong.github.io/git-novice/10-collab/index.html
-1/12,Wednesday,,,15:40,17:20,Koren,Install Python via miniconda and set up jupyter lab.,https://swcarpentry.github.io/python-novice-gapminder/
-,,1,1,,,,Python fundamentals.,https://swcarpentry.github.io/python-novice-gapminder/
-1/13,Thursday,1,1,15:40,17:20,Koren,Breaking up code into functions.,https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html
-1/17,Monday,,,15:40,17:20,Koren,Using code written by others.,https://swcarpentry.github.io/python-novice-gapminder/06-libraries/index.html
-,,1,1,,,,Storing your data in lists and dictionaries.,https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html
-1/18,Tuesday,1,1,15:40,17:20,Koren,Repeat Tasks with Loops,https://swcarpentry.github.io/python-novice-gapminder/12-for-loops/index.html
-'1/19,Wednesday,,,15:40,17:20,Wohak,Read and Explore Data (+Setup),https://datacarpentry.org/stata-economics/01-explore-data/index.html
+1/17,Monday,,,15:40,17:20,Koren,Install Python via miniconda and set up jupyter lab.,https://swcarpentry.github.io/python-novice-gapminder/
+,,,,,,,Python fundamentals.,https://swcarpentry.github.io/python-novice-gapminder/
+,,1,1,,,,Breaking up code into functions.,https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions/index.html
+1/18,Tuesday,1,1,15:40,17:20,Koren,Using code written by others.,https://swcarpentry.github.io/python-novice-gapminder/06-libraries/index.html
+'1/19,Wednesday,,,15:40,17:20,Wohak,Storing your data in lists and dictionaries.,https://swcarpentry.github.io/python-novice-gapminder/11-lists/index.html
+,,1,1,,,,Repeat Tasks with Loops,https://swcarpentry.github.io/python-novice-gapminder/12-for-loops/index.html
+1/20,Thursday,,,15:40,17:20,Wohak,Read and Explore Data (+Setup),https://datacarpentry.org/stata-economics/01-explore-data/index.html
 ,,1,1,,,,Data Formats and Data Quality,https://datacarpentry.org/stata-economics/02-data-quality/index.html
-1/20,Thursday,,,15:40,17:20,Wohak,Transform Data,https://datacarpentry.org/stata-economics/03-transform-data/index.html
+1/24,Monday,,,15:40,17:20,Wohak,Transform Data,https://datacarpentry.org/stata-economics/03-transform-data/index.html
 ,,1,1,,,,Combine Data,https://datacarpentry.org/stata-economics/04-combine-data/index.html
-1/24,Monday,,,15:40,17:20,Wohak,Save and Reuse your Work in .do Files,https://datacarpentry.org/stata-economics/05-programming/index.html
-,,1,1,,,,Repeat Tasks with Loops,https://datacarpentry.org/stata-economics/06-loops/index.html
-1/25,Tuesday,1,1,15:40,17:20,Wohak,Saving your .do files with Git,I will add a lesson on this.
-1/26,Wednesday,1,1,15:40,17:20,Wohak,Reading and writing files in different formats,
-1/27,Thursday,,,15:40,17:20,Wohak,Finding and installing user-written Stata packages,
+1/25,Tuesday,1,1,15:40,17:20,Wohak,Save and Reuse your Work in .do Files,https://datacarpentry.org/stata-economics/05-programming/index.html
+1/26,Wednesday,1,1,15:40,17:20,Wohak,Repeat Tasks with Loops,https://datacarpentry.org/stata-economics/06-loops/index.html
+1/27,Thursday,,,15:40,17:20,Wohak,Saving your .do files with Git,I will add a lesson on this.
 ,,1,1,,,,Post-workshop survey,https://carpentries.typeform.com/to/UgVdRQ?slug=2022-01-10-ECBS-5241-Coding-for-Economists
