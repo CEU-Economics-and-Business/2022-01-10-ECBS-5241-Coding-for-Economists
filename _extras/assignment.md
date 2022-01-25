@@ -8,7 +8,9 @@ Pick a [sample dataset](https://ceu-economics-and-business.github.io/ECBS-5146-D
 
 Feel free to consult class notes, Google, StackOverflow, each other, but **type each line of code you write on your own**. No copy-pasting, please.
 
-> The deadline is 11pm (Vienna time) on Friday, **January 8**.
+> The deadline is 11pm (Vienna time) on Friday, **April 1**. 
+> 
+> Note that the training licenses for Stata 17 expire on February 4. If you plan to work with Stata after this time, you need to access it via regular CEU ways (computer lab or VPN). If you are not a CEU student and need temporary access to Stata for your assignment, let us know on Slack. 
 
 Show all your work in a public GitHub repository. (Please start a new one.) Submit the link to your repository to complete the assignment. (If your data is too large to add to GitHub or you want to keep it private, please give very specific instructions about how we can get it.)
 
@@ -55,9 +57,4 @@ n | 3n
 
 ### Grading Rubric
 
-Score | Letter grade
----|---
-86-100 | A
-76-85 | A minus
-56-75 | B (straight, plus or minus)
-0-55 | let's talk
+The course is Pass/Fail. You need a score of 60 or higher to pass.
