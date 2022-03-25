@@ -8,7 +8,7 @@ Pick a [sample dataset](https://ceu-economics-and-business.github.io/ECBS-5146-D
 
 Feel free to consult class notes, Google, StackOverflow, each other, but **type each line of code you write on your own**. No copy-pasting, please.
 
-> The deadline is 11pm (Vienna time) on Friday, **April 1**. 
+> The deadline is 11pm (Vienna time) on Friday, **April 8**. 
 > 
 > Note that the training licenses for Stata 17 expire on February 4. If you plan to work with Stata after this time, you need to access it via regular CEU ways (computer lab or VPN). If you are not a CEU student and need temporary access to Stata for your assignment, let us know on Slack. 
 
