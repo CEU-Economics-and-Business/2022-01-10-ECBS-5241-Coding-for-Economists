@@ -8,33 +8,29 @@ Pick a [sample dataset](https://ceu-economics-and-business.github.io/ECBS-5146-D
 
 Feel free to consult class notes, Google, StackOverflow, each other, but **type each line of code you write on your own**. No copy-pasting, please.
 
-> The deadline is 11pm (Vienna time) on Friday, **April 8**. 
+> The deadline is 11pm (Vienna time) on Friday, **April 7**. 
 > 
-> Note that the training licenses for Stata 17 expire on February 4. If you plan to work with Stata after this time, you need to access it via regular CEU ways (computer lab or VPN). If you are not a CEU student and need temporary access to Stata for your assignment, let us know on Slack. 
+> You need to access Stata it via regular CEU ways (computer lab or VPN). If you are not a CEU student and need temporary access to Stata for your assignment, let us know on Slack. 
 
 Show all your work in a public GitHub repository. (Please start a new one.) Submit the link to your repository to complete the assignment. (If your data is too large to add to GitHub or you want to keep it private, please give very specific instructions about how we can get it.)
 
 ## Learning Outcomes to Demonstrate
 1. Understand folder structure. Perform operations on files in different folders.
 2. Automate repeating tasks using Python "for" loops.
-3. Break up work into smaller components using Python functions.
-4. Use Python "lists" and "dictionaries" appropriately. Demonstrate one of the two.
-5. Automate repeating tasks using Stata "for" loops.
-6. Break up work into smaller components using Stata .do files.
-7. Read .csv data in in Stata. 
-8. Fix common data quality errors in Stata (for example, string vs number, missing value).
-9. Aggregate, reshape, and combine data for analysis in Python or Stata. Demonstrate at least one of these data manipulations.
-10. Prepare a sample for analysis by filtering observations and variables and creating transformations of variables. Demonstrate all three.
-11. Save data in Stata.
-12. Run ordinary least squares regression in Stata.
-13. Create a graph (of any type) in State.
-14. Save regression tables and graphs as files. Demonstrate both.
-15. Install a Stata package. (Can be the same as we already did in class.)
-16. Commit files into git version control.
-17. Name files, functions and variables appropriately.
-18. Write helpful comments and commit messages. Demonstrate both.
-19. Push a repository to GitHub.
-20. Explain how to reproduce your work with short instructions or a self-documenting master script.
+3. Use Python "lists" and "dictionaries" appropriately. Demonstrate one of the two.
+4. Break up work into smaller components using Stata .do files.
+5. Read .csv data in in Stata. 
+6. Fix common data quality errors in Stata (for example, string vs number, missing value).
+7. Prepare a sample for analysis by filtering observations and variables and creating transformations of variables. Demonstrate all three.
+8. Save data in Stata.
+9. Run ordinary least squares regression in Stata.
+10. Create a graph (of any type) in State.
+11. Save graphs as files.
+12. Commit files into git version control.
+13. Name files, functions and variables appropriately.
+14. Write helpful comments and commit messages. Demonstrate both.
+15. Push a repository to GitHub.
+16. Explain how to reproduce your work with short instructions or a self-documenting master script.
 
 ## Grading
 ### Class Participation
