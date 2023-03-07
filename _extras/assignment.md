@@ -49,7 +49,7 @@ The maximum score for the coding assignment is 60. The score only depends on the
 
 Number of outcomes | Score
 ---|---
-n | 3n
+n | 3n + 12
 
 ### Grading Rubric
 
