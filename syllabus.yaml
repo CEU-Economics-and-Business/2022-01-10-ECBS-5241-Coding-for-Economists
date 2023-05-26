@@ -5,28 +5,24 @@ instructors:
         bio: Miklós Koren is professor of economics at CEU, senior research fellow at the Institute of Economics, and research fellow of the Centre for Economic Policy Research. His research focuses on how talent and technology jointly determine business success. Professor Koren has more than two decades of experience with data and coding. He is a certified Carpentries Instructor.
         email: korenm@ceu.edu    
         office: QS B510 (Vienna)
-    -   name: Ulrich Wohak
-        bio: Ulrich Wohak is a PhD student in Economics at the Vienna University of Economics and Business. He has experience as an economist at UK Competition and Markets Authority (CMA) and the Austrian competition authority (BWB) , MSc Specialized Economic Analysis (Competition) at Barcelona Graduate School of Economics (BGSE), MA Economics and Management at University of Aberdeen (UoA), worked and studied abroad for 7 years, continuous voluntary work as a paramedic, experienced with Stata, R, Python (quant) and ArcGIS.
-        email: ulrich.wohak@wu.ac.at     
-        office: TBA
 credits:
-    us: 2
-    ects: 4
+    us: 1
+    ects: 2
 module: Analytical Foundations Module
 drop: As required in the MA in Economics regulations 
-term: Winter 2021-2022
+term: Fall
 level: 
     - Master's
 prerequisites:
     - ""
 description:
-    content: This course teaches how to organize data and code on your computer, how to write simple programs in Python to automate tasks, and how to use Stata throughout the steps of the your research process.  
-    relevance: Quantitative research in economics and other social science requires an effective use of computational tools. The tools and methods used in this course will be applied throughout other courses and the students' professional career. 
+    content: This course teaches how to organize data and code on your computer, and how to write simple programs in Python to automate tasks.  
+    relevance: Quantitative research in economics and other social science requires effective use of computational tools. The tools and methods used in this course will be applied throughout other courses and the students' professional career. 
 learning_outcomes:
     - Understand folder structure. Perform operations in the command line on files in different folders.
-    - Automate repeating tasks with Python and Stata scripts, using for loops and functions.
-    - Read and write data in various formats in Stata. Explore data and fix common data quality errors.
-    - Filter, aggregate, reshape, and combine data for analysis.
+    - Automate repeating tasks with Python, using for loops and functions.
+    - Download data from the internet.
+    - Read and write data in various formats. Explore data and fix common data quality errors.
 learning_areas:
     - type: Critical thinking
       outcomes:
@@ -36,9 +32,9 @@ learning_areas:
         - Explore and analyze a large number of observations from potentially many different sources. 
     - type: Technology skills
       outcomes:
-        - Write short programs in Python and Stata.
-        - Install and use packages in Python and Stata.
-        - "Use key programming tools in Python and Stata: functions, loops."
+        - Write short programs in Python.
+        - Install and use packages in Python.
+        - "Use key programming tools in Python: functions, loops."
     - type: Interpersonal communication skills
       outcomes:
         - Convey technical concepts verbally.
@@ -59,12 +55,11 @@ readings:
     required:
         - "Paarsch and Golyaev, 2016. A Gentle Introduction to Effective Computing in Quantitative Research: What Every Research Assistant Should Know. MIT Press. (PG henceforth)"
         - Koren, Miklós, Arieda Muço and András Vereckei, 2019a. “Introduction to the Command Line for Economics [website].” The Carpentries. https://datacarpentry.org/shell-economics/ (KMV_shell henceforth)
-        - Koren, Miklós, Arieda Muço and András Vereckei, 2019a. “Economics with Stata [website].” The Carpentries. https://datacarpentry.org/stata-economics/ (KMV_Stata henceforth)
     recommended:
         - "Sargent, Thomas J. and John Stachurski. 2020. Python Programming for Economics and Finance [website], https://python-programming.quantecon.org/index_toc.html"
         - "Gentzkow, Matthew and Jesse M. Shapiro. 2014. Code and Data for the Social Sciences. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf"
 teaching_methods:
-    - This is a participatory, experiential course. Students participate in live coding together with the instructors. This format facilitates quick and frequent feedback and enables students to achieve mastery in their computing skills.
+    - This is a participatory, experiential course. Students participate in live coding together with the instructor. This format facilitates quick and frequent feedback and enables students to achieve mastery in their computing skills.
 assessments:
     -   description: Class participation
         weight: 40
@@ -75,7 +70,6 @@ technical_requirements:
     - "Operating system: Windows 10+ or Mac OS X 10.8+, or Linux 2.6.18+"
     - git bash (Windows only), https://gitforwindows.org/
     - Miniconda Python 3.8 distribution (note the version), https://docs.conda.io/en/latest/miniconda.html 
-    - Stata 16, free teaching licenses available upon request.
     - Internet access. 
 outline:
     -   session: 1
@@ -94,23 +88,5 @@ outline:
         topic: Repeating tasks with for loops
         reading: PG 4.3.9-11
     -   session: 6
-        topic: Storing your data in lists and dictionaries
-        reading: PG 4.3.3
-    -   session: 7
         topic: Reading and writing files in different formats
         reading: PG 4.8
-    -   session: 8
-        topic: Data cleaning in Stata
-        reading: KMV_Stata, Episodes 1-2
-    -   session: 9
-        topic: Transforming and combining data
-        reading: KMV_Stata, Episodes 3-4
-    -   session: 10
-        topic: Save and Reuse your Work in .do Files
-        reading: KMV_Stata, Episode 5
-    -   session: 11
-        topic: Repeat tasks with for loops
-        reading: KMV_Stata, Episode 6
-    -   session: 12
-        topic: Finding and installing user-written Stata packages
-        reading: ""
