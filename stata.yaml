@@ -1,0 +1,92 @@
+code: ECBS 5241
+title: Coding for Economists in Stata
+instructors:
+    -   name: Miklós Koren
+        bio: Miklós Koren is professor of economics at CEU, senior research fellow at the Institute of Economics, and research fellow of the Centre for Economic Policy Research. His research focuses on how talent and technology jointly determine business success. Professor Koren has more than two decades of experience with data and coding. He is a certified Carpentries Instructor.
+        email: korenm@ceu.edu    
+        office: QS B510 (Vienna)
+credits:
+    us: 1
+    ects: 2
+module: Analytical Foundations Module
+drop: As required in the MA in Economics regulations 
+term: Fall
+level: 
+    - Master's
+prerequisites:
+    - ""
+description:
+    content: This course teaches how to organize data and code on your computer, and how to write simple programs in Stata to automate tasks.  
+    relevance: Quantitative research in economics and other social science requires effective use of computational tools. The tools and methods used in this course will be applied throughout other courses and the students' professional career. 
+learning_outcomes:
+    - Read and write data in various formats in Stata.
+    - Explore data in Stata and fix common data quality errors.
+    - Filter, aggregate, reshape, and combine data for analysis.
+    - Automate repeating tasks with Stata scripts.
+    - Run regressions and save their results.
+    - Create various plots and save them as files.
+    - Use Stata programming effectively.
+learning_areas:
+    - type: Critical thinking
+      outcomes:
+        - Evaluate and compare different computing tools and methods.
+    - type: Quantitative reasoning
+      outcomes:
+        - Explore and analyze a large number of observations from potentially many different sources. 
+    - type: Technology skills
+      outcomes:
+        - Write short programs in Stata.
+        - Install and use packages in Stata.
+        - "Use key programming tools in Stata: macros, loops."
+    - type: Interpersonal communication skills
+      outcomes:
+        - Convey technical concepts verbally.
+        - Collaborate with others on technical tasks.
+    - type: Management knowledge and skills
+      outcomes:
+        - Create software with many components.
+        - Organize work components effectively.
+        - Meet deadlines.
+    - type: Cultural sensitivity and diversity
+      outcomes:
+        - Work together with students of different backgrounds.
+    - type: Ethics and social responsibility
+      outcomes:
+        - Understand ethical and legal constraints of acquiring data.
+        - Apply good practices of data protection.
+readings:
+    required:
+        - "Gentzkow, Matthew and Jesse M. Shapiro. 2014. Code and Data for the Social Sciences. https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf"
+        - Koren, Miklós, Arieda Muço and András Vereckei, 2019a. “Economics with Stata [website].” The Carpentries. https://datacarpentry.org/stata-economics/ (KMV_Stata henceforth)
+    recommended:
+        - Naqvi, Asjad. 2023. The Stata Guide [website]. Medium. https://medium.com/the-stata-guide/welcome-to-the-stata-guide-12adf81ec3d
+teaching_methods:
+    - This is a participatory, experiential course. Students participate in live coding together with the instructor. This format facilitates quick and frequent feedback and enables students to achieve mastery in their computing skills.
+assessments:
+    -   description: Class participation
+        weight: 40
+    -   description: Take-home coding assignment
+        weight: 60
+technical_requirements:
+    - Personal laptop computer with administrative privileges to install open source software.
+    - Stata 16, free teaching licenses available upon request.
+    - Internet access. 
+outline:
+    -   session: 1
+        topic: Data cleaning in Stata
+        reading: KMV_Stata, Episodes 1-2
+    -   session: 2
+        topic: Transforming and combining data
+        reading: KMV_Stata, Episodes 3-4
+    -   session: 3
+        topic: Save and Reuse your Work in .do Files
+        reading: KMV_Stata, Episode 5
+    -   session: 4
+        topic: Repeat tasks with for loops and macros
+        reading: KMV_Stata, Episode 6
+    -   session: 5
+        topic: Find and install user-written Stata packages, save regression results
+        reading: ""
+    -   session: 6
+        topic: Create beautiful plots
+        reading: ""
